@@ -1,5 +1,6 @@
 import React from "react"
 import { Card, Heading, Box, Flex, Text, Link } from "theme-ui"
+import { Link as GatsbyLink } from "gatsby"
 
 import SEO from "../components/seo"
 import { Note } from "../components/Note"
@@ -108,16 +109,16 @@ const IndexPage = () => (
               fontSize: [2, 3, 5],
             }}
           >
-            Gradita conferma a Franco{" "}
+            Gradita conferma
             <Link
-              href="https://wa.me/393283990057?text=Noi%20ci%20siamo!"
-              target="_blank"
-              rel="noopener noreferrer"
+              as={GatsbyLink}
+              to="/conferma-presenza"
               sx={{
+                ml: 1,
                 whiteSpace: "nowrap",
               }}
             >
-              +39 3283990057
+              clicca qui
             </Link>
           </Heading>
         </Box>
