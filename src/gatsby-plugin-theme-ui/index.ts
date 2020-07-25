@@ -2,18 +2,18 @@ export default {
   breakpoints: ["40em", "56em", "64em"],
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512, 1024],
   fonts: {
-    body: "Poppins, sans-serif",
-    heading: "Lustria, serif",
+    body: "Montserrat, sans-serif",
+    heading: "'Playfair Display', serif",
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
   fontWeights: {
-    body: 400,
-    heading: 800,
+    body: 300,
+    heading: 500,
     bold: 700,
   },
   lineHeights: {
     body: 1.625,
-    heading: 1.25,
+    heading: 1.1,
   },
   text: {
     caps: {
@@ -25,12 +25,17 @@ export default {
   colors: {
     text: "#5b5b5b",
     alphaBg: "rgba(64,83,27, 0.7)",
-    background: "#fff",
-    primary: "#669253",
-    secondary: "#d7f9f1",
-    muted: "#7aa095",
-    dark: "#40531b",
-    light: "#afbc88",
+    background: "#efefef",
+    primary: "#69ddffff",
+    secondary: "#96cdffff",
+    muted: "#d8e1ffff",
+    dark: "#dbbaddff",
+    light: "#be92a2ff",
+    // primary: "#48d2dc",
+    // secondary: "#d7f9f1",
+    // muted: "#7aa095",
+    // dark: "#40531b",
+    // light: "#8f908f",
   },
   layout: {
     header: {
@@ -61,8 +66,8 @@ export default {
   },
   cards: {
     primary: {
-      bg: 'background'
-      
+      bg: "white",
+      boxShadow: "0 0 8px rgba(0, 0, 0, 0.125)",
     },
     compact: {
       padding: 1,
@@ -76,7 +81,7 @@ export default {
       fontFamily: "body",
       lineHeight: "body",
       fontWeight: "body",
-      bg: "text",
+      bg: "background",
     },
     h1: {
       color: "text",
@@ -106,7 +111,7 @@ export default {
       lineHeight: "body",
     },
     a: {
-      color: "primary",
+      color: "secondary",
     },
     pre: {
       overflowX: "auto",
