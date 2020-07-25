@@ -103,6 +103,9 @@ const IndexPage = () => (
               (map)
             </Link>
           </Text>
+          <Text sx={{ display: "block", fontSize: [0, 1, 2] }}>
+            Dopo la cerimonia a seguire aperitivo, cena e taglio della torta.
+          </Text>
           <Heading
             sx={{
               mt: 2,
@@ -112,9 +115,10 @@ const IndexPage = () => (
             Gradita conferma
             <Link
               as={GatsbyLink}
+              // @ts-ignore
               to="/conferma-presenza"
               sx={{
-                ml: 1,
+                ml: 2,
                 whiteSpace: "nowrap",
               }}
             >

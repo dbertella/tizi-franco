@@ -14,6 +14,7 @@ const ConfirmationForm = () => (
     }}
   >
     <SEO title="Conferma la tua presenza" />
+    {/* @ts-ignore */}
     <Link as={GatsbyLink} to="/">
       Indietro
     </Link>
