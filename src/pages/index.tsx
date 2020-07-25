@@ -103,12 +103,12 @@ const IndexPage = () => (
               (map)
             </Link>
           </Text>
-          <Text sx={{ display: "block", fontSize: [0, 1, 2] }}>
+          <Text sx={{ display: "block", mt: [1, 2, 3], fontSize: [0, 1, 2] }}>
             Dopo la cerimonia a seguire aperitivo, cena e taglio della torta.
           </Text>
           <Heading
             sx={{
-              mt: 2,
+              mt: [2, 3, 4],
               fontSize: [2, 3, 5],
             }}
           >
