@@ -3,6 +3,7 @@ module.exports = {
     title: `Tiziana E Franco Si Sposano, è ufficiale`,
     description: `12 Settembre 2020 ore 16 30 presso Villa Magni Ex Rizzoli`,
     author: `@_denb`,
+    siteUrl: `https://abbiamoladata.com/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -16,6 +17,12 @@ module.exports = {
     `gatsby-plugin-theme-ui`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        policy: [{ userAgent: "*", disallow: ["/"] }],
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

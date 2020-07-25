@@ -26,6 +26,7 @@
     "typescript": "^3.8.3"
   },
   "devDependencies": {
+    "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-theme-ui": "^0.3.0",
     "prettier": "2.0.5"
   },
