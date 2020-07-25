@@ -8,8 +8,8 @@ const IndexPage = () => (
     sx={{
       justifyContent: "center",
       alignItems: "center",
-      height: "100vh",
-      overflow: "hidden",
+      my: 5,
+      mx: 1,
     }}
   >
     <SEO title="Tiziana E Franco Si Sposano" />
@@ -41,7 +41,7 @@ const IndexPage = () => (
             fontSize: [2, 3, 5],
             textAlign: "right",
             fontFamily: "body",
-            letterSpacing: "0.5rem",
+            letterSpacing: "0.2em",
           }}
         >
           È Ufficiale!
@@ -49,13 +49,13 @@ const IndexPage = () => (
         <Heading
           as="h1"
           sx={{
-            fontSize: [5, 6, 8],
+            fontSize: [6, 7, 8],
             textTransform: "uppercase",
-            letterSpacing: "1rem",
+            letterSpacing: "0.2em",
             textAlign: "right",
           }}
         >
-          Tiziana E Franco Si Sposano
+          Tiziana E<br />Franco Si<br />Sposano
         </Heading>
       </Box>
     </Card>

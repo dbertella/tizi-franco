@@ -3,8 +3,7 @@ export default {
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512, 1024],
   fonts: {
     body: "Poppins, sans-serif",
-    heading: "'Playfair Display', serif",
-    cursive: "'Amatic SC', cursive",
+    heading: "Lustria, serif",
   },
   fontSizes: [12, 14, 16, 20, 24, 32, 48, 64, 96],
   fontWeights: {
@@ -62,10 +61,8 @@ export default {
   },
   cards: {
     primary: {
-      position: "relative",
-      padding: 2,
-      borderRadius: 4,
-      boxShadow: "0 0 8px rgba(0, 0, 0, 0.125)",
+      bg: 'background'
+      
     },
     compact: {
       padding: 1,
@@ -79,6 +76,7 @@ export default {
       fontFamily: "body",
       lineHeight: "body",
       fontWeight: "body",
+      bg: "text",
     },
     h1: {
       color: "text",
