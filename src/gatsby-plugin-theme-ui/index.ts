@@ -29,13 +29,8 @@ export default {
     primary: "#69ddffff",
     secondary: "#96cdffff",
     muted: "#d8e1ffff",
-    dark: "#dbbaddff",
+    highlight: "#dbbaddff",
     light: "#be92a2ff",
-    // primary: "#48d2dc",
-    // secondary: "#d7f9f1",
-    // muted: "#7aa095",
-    // dark: "#40531b",
-    // light: "#8f908f",
   },
   layout: {
     header: {
@@ -111,7 +106,7 @@ export default {
       lineHeight: "body",
     },
     a: {
-      color: "secondary",
+      color: "primary",
     },
     pre: {
       overflowX: "auto",
