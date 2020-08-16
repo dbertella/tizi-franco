@@ -15,9 +15,9 @@ export const Present: FC = props => {
       {...props}
     >
       <defs>
-        <linearGradient id="home" x1="0" y1="0" x2="0" y2="1">
-          <stop offset={0.48} stopColor={theme.colors?.primary} />
+        <linearGradient id="home" x1="0.65" y1="0.55" x2="0" y2="1">
           <stop offset={0} stopColor={theme.colors?.highlight} />
+          <stop offset={0} stopColor={theme.colors?.primary} />
         </linearGradient>
       </defs>
       <path

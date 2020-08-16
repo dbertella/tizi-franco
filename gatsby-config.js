@@ -38,7 +38,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`Montserrat:wght@300`, `Playfair+Display:wght@500`],
+        fonts: [`Montserrat:wght@300,700`, `Playfair+Display:wght@500`],
         display: "swap",
       },
     },

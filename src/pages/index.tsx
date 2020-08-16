@@ -5,6 +5,7 @@ import { Link as GatsbyLink } from "gatsby"
 import SEO from "../components/seo"
 import { Note } from "../components/Note"
 import { Rect } from "../components/Rect"
+import { Present } from "../components/Present"
 
 const IndexPage = () => (
   <>
@@ -146,18 +147,15 @@ const IndexPage = () => (
         </Box>
       </Card>
     </Flex>
-    <Link
-      as={GatsbyLink}
-      /* @ts-ignore */
-      to="/regalo"
-      sx={{
-        display: "block",
-        textAlign: "center",
-        color: "muted",
-      }}
-    >
-      Se stai pensando a un regalo clicca qui
-    </Link>
+    <Flex sx={{ justifyContent: "flex-end", px: 2 }}>
+      <Link
+        as={GatsbyLink}
+        /* @ts-ignore */
+        to="/regalo"
+      >
+        <Present sx={{ width: 35, height: 35 }} />
+      </Link>
+    </Flex>
   </>
 )
 

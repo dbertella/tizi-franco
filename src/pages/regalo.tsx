@@ -2,7 +2,7 @@ import React from "react"
 
 import SEO from "../components/seo"
 import { Present } from "../components/Present"
-import { Flex, Link, Text, Card, Box } from "theme-ui"
+import { Flex, Link, Text, Card, Box, Heading } from "theme-ui"
 import { Link as GatsbyLink } from "gatsby"
 
 const PresentPage = () => {
@@ -13,7 +13,7 @@ const PresentPage = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        mx: 2,
+        mx: [1, null, 2],
       }}
     >
       <SEO title="Se stai pensando a un regalo eccoci qui" />
@@ -28,7 +28,7 @@ const PresentPage = () => {
         <Card
           sx={{
             mt: 3,
-            p: 4,
+            p: [2, null, 4],
             borderRadius: 2,
           }}
         >
@@ -41,19 +41,19 @@ const PresentPage = () => {
             nel salvadanaio, e quando lo useremo in futuro, penseremo con gioia
             a voi e al vostro gesto.
           </Text>
-          <Text
+          <Heading as="h4" mt={3}>
+            Di seguito le coordinate bancarie del conto corrente Fineco:
+          </Heading>
+          <Box
             sx={{
-              mt: 4,
+              mt: 3,
               display: "block",
               border: "1px solid",
               borderColor: "light",
               p: 2,
+              fontSize: [1, null, 2],
             }}
           >
-            <strong>
-              Di seguito le coordinate bancarie del conto corrente Fineco.
-            </strong>
-            <br />
             <strong>INTESTATO A:</strong> MARTOCCIA TIZIANA
             <br />
             <strong>IBAN:</strong> IT82D0301503200000002771852
@@ -61,7 +61,7 @@ const PresentPage = () => {
             <strong>BIC Banca ricevente (swift):</strong> UNCRITMM
             <br />
             <strong>BIC Banca beneficiario:</strong> FEBIITM1
-          </Text>
+          </Box>
         </Card>
       </Box>
     </Flex>
