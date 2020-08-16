@@ -2,7 +2,7 @@
 import { FC } from "react"
 import { jsx, useThemeUI } from "theme-ui"
 
-export const Home: FC = props => {
+export const Present: FC = props => {
   const { theme } = useThemeUI()
 
   return (

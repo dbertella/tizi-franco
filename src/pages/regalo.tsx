@@ -5,7 +5,7 @@ import { Present } from "../components/Present"
 import { Flex, Link, Text, Card, Box } from "theme-ui"
 import { Link as GatsbyLink } from "gatsby"
 
-const ConfirmationForm = () => {
+const PresentPage = () => {
   return (
     <Flex
       sx={{
@@ -68,4 +68,4 @@ const ConfirmationForm = () => {
   )
 }
 
-export default ConfirmationForm
+export default PresentPage
